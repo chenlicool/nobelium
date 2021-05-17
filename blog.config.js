@@ -11,12 +11,12 @@ const BLOG = {
   darkBackground: '#111827', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2021, // if leave this empty, current year will be used.
-  postsPerPage: 7,
+  postsPerPage: 10,
   sortByDate: false,
   showAbout: true, // WIP
   showArchive: true, // WIP
-  autoCollapsedNavBar: false, // the automatically collapsed navigation bar
-  socialLink: 'https://twitter.com/craigaryhart',
+  autoCollapsedNavBar: true, // the automatically collapsed navigation bar
+  socialLink: 'https://web.okjike.com/u/8ff9c142-e256-497e-a69d-c43e21b012b3',
   seo: {
     keywords: ['Blog', 'Website', 'Notion', '交互设计师', '博客'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
@@ -36,7 +36,7 @@ const BLOG = {
   },
   comment: {
     // support provider: gitalk, utterances, cusdis
-    provider: '', // leave it empty if you don't need any comment plugin
+    provider: 'cusdis', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
       repo: '', // The repository of store comments
       owner: '',
